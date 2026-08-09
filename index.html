@@ -236,26 +236,12 @@
   <nav>
     <div class="nav-inner">
       <a href="#" class="logo">🟣 <span>Obsidian 完整教學（擴充版）</span></a>
-      <div class="nav-links">
-        <a href="#intro">介紹</a>
-        <a href="#download">下載</a>
-        <a href="#interface">界面</a>
-        <a href="#markdown">Markdown</a>
-        <a href="#links">連結</a>
-        <a href="#para">PARA</a>
-        <a href="#daily">每日筆記</a>
-        <a href="#templates">模板</a>
-        <a href="#ai">AI 整合</a>
-        <a href="#hermes">Hermes</a>
-        <a href="#finance">財務模板</a>
-        <a href="#n8n">n8n</a>
-        <a href="#hermes-prompt">提示詞</a>
-        <a href="#dataview">Dataview</a>
-        <a href="#heptabase">Heptabase</a>
-        <a href="#import">匯入</a>
-        <a href="#trello">Trello</a>
-        <a href="#reminder">Reminder</a>
-        <a href="#sync">同步備份</a>
+            <div class="nav-links">
+        <a href="#intro">基礎</a>
+        <a href="#daily">日常</a>
+        <a href="#trello">整合</a>
+        <a href="#hermes">自動化</a>
+        <a href="#sync">備份</a>
         <a href="#practice">練習</a>
       </div>
     </div>
@@ -265,7 +251,7 @@
     <div class="badge">📚 零基礎 + 進階擴充 · 適合一人公司知識管理</div>
     <h1>零基礎完整學會 Obsidian<br>建立屬於你的第二大腦</h1>
     <p class="subtitle">
-      根據 YouTube「零基礎20分鐘學會Obsidian 95%功能！」影片結構，結合 <a href="https://obsidian.md/zh/" target="_blank" rel="noopener">官方中文網站</a>，再特別加強 PARA 方法、一人多公司知識庫結構、實用模板、AI 整合同 Dataview 查詢。
+      根據 YouTube「零基礎20分鐘學會Obsidian 95%功能！」影片結構，結合 <a href="https://obsidian.md/zh/" target="_blank" rel="noopener">官方中文網站</a>，按由淺入深重新編排：基礎 → 日常使用 → 工具整合 → 進階自動化 → 長期維護。
     </p>
 
     <div class="video-wrap">
@@ -283,40 +269,59 @@
 
   <main>
     <!-- TOC -->
-    <div class="toc">
-      <h3>📋 完整教學大綱</h3>
-      <ol>
+        <div class="toc">
+      <h3>📋 完整學習路徑（由淺入深）</h3>
+      <h4 style="margin:1.25rem 0 0.5rem;color:var(--accent-light);font-size:1rem;">基礎認識</h4>
+      <ol style="margin-bottom:0.5rem;">
         <li><a href="#intro">Obsidian 是什麼？第二大腦概念</a></li>
         <li><a href="#download">下載與安裝</a></li>
-        <li><a href="#interface">主屏幕按鍵與界面認識</a></li>
+        <li><a href="#interface">主界面認識</a></li>
         <li><a href="#settings">基本設定</a></li>
         <li><a href="#plugins-core">核心插件</a></li>
-        <li><a href="#markdown">筆記格式（Markdown）</a></li>
-        <li><a href="#links">連結系統（雙向 / 反向）</a></li>
+        <li><a href="#markdown">Markdown 筆記格式</a></li>
+        <li><a href="#links">雙向連結與反向連結</a></li>
         <li><a href="#embed">嵌入筆記與附件</a></li>
         <li><a href="#graph">關係圖譜</a></li>
         <li><a href="#strategy">資料夾 vs 連結</a></li>
-        <li><a href="#para">PARA 方法（一人公司特別加強）</a></li>
-        <li><a href="#daily">每日筆記 + 週回顧工作流</a></li>
-        <li><a href="#templates">實用模板範例（可直接複製）</a></li>
-        <li><a href="#ai">AI + Obsidian 整合</a></li>
-        <li><a href="#hermes">Hermes Agent 點樣讀取 Vault</a></li>
-        <li><a href="#finance">財務對帳相關模板</a></li>
-        <li><a href="#n8n">n8n 工作流例子</a></li>
-        <li><a href="#hermes-prompt">Hermes 系統提示詞範本</a></li>
-        <li><a href="#dataview">Dataview 入門</a></li>
-        <li><a href="#plugins">推薦插件進階清單</a></li>
-        <li><a href="#heptabase">Heptabase 如何配合 Obsidian</a></li>
-        <li><a href="#import">從多個 App 匯入 Obsidian 步驟清單</a></li>
-        <li><a href="#trello">Trello 如何配合 Obsidian</a></li>
+        <li><a href="#para">PARA 方法</a></li>
+      </ol>
+      <h4 style="margin:1.25rem 0 0.5rem;color:var(--accent-light);font-size:1rem;">日常使用</h4>
+      <ol style="margin-bottom:0.5rem;">
+        <li><a href="#daily">每日筆記 + 週回顧</a></li>
+        <li><a href="#templates">實用模板範例</a></li>
         <li><a href="#reminder">重要事項有效 Reminder</a></li>
-        <li><a href="#sync">同步、備份與跨裝置（加強版）</a></li>
+        <li><a href="#import">從多個 App 匯入</a></li>
+      </ol>
+      <h4 style="margin:1.25rem 0 0.5rem;color:var(--accent-light);font-size:1rem;">工具整合</h4>
+      <ol style="margin-bottom:0.5rem;">
+        <li><a href="#trello">Trello 配合用法</a></li>
+        <li><a href="#heptabase">Heptabase 配合用法</a></li>
+        <li><a href="#ai">AI + Obsidian 整合</a></li>
+        <li><a href="#finance">財務對帳模板</a></li>
+        <li><a href="#dataview">Dataview 入門</a></li>
+        <li><a href="#plugins">推薦插件清單</a></li>
+      </ol>
+      <h4 style="margin:1.25rem 0 0.5rem;color:var(--accent-light);font-size:1rem;">進階自動化</h4>
+      <ol style="margin-bottom:0.5rem;">
+        <li><a href="#hermes">Hermes 讀取 Vault</a></li>
+        <li><a href="#hermes-prompt">Hermes 系統提示詞</a></li>
+        <li><a href="#n8n">n8n 工作流例子</a></li>
+      </ol>
+      <h4 style="margin:1.25rem 0 0.5rem;color:var(--accent-light);font-size:1rem;">長期維護</h4>
+      <ol style="margin-bottom:0.5rem;">
+        <li><a href="#sync">同步、備份與跨裝置</a></li>
         <li><a href="#practice">總結與練習建議</a></li>
       </ol>
     </div>
 
     <!-- 1. Intro -->
-    <section id="intro">
+    
+    <div class="phase-header" style="margin: 3rem 0 1.5rem; padding: 1rem 1.25rem; background: linear-gradient(135deg, rgba(124,58,237,0.2), rgba(236,72,153,0.1)); border-left: 4px solid var(--accent); border-radius: 0 12px 12px 0;">
+      <div style="font-size:0.85rem;color:var(--accent-light);font-weight:600;letter-spacing:0.05em;">學習階段</div>
+      <div style="font-size:1.25rem;font-weight:700;color:#fff;margin-top:0.25rem;">基礎認識</div>
+    </div>
+
+<section id="intro">
       <div class="section-header">
         <div class="section-num">1</div>
         <h2>Obsidian 是什麼？為什麼叫「第二大腦」</h2>
@@ -353,7 +358,8 @@
     </section>
 
     <!-- 2. Download -->
-    <section id="download">
+    
+<section id="download">
       <div class="section-header">
         <div class="section-num">2</div>
         <h2>下載與安裝（影片 03:14）</h2>
@@ -400,7 +406,8 @@
     </section>
 
     <!-- 3. Interface -->
-    <section id="interface">
+    
+<section id="interface">
       <div class="section-header">
         <div class="section-num">3</div>
         <h2>主屏幕按鍵與界面認識（影片 05:23）</h2>
@@ -478,7 +485,8 @@
     </section>
 
     <!-- 4. Settings -->
-    <section id="settings">
+    
+<section id="settings">
       <div class="section-header">
         <div class="section-num">4</div>
         <h2>基本設定（影片 08:12）</h2>
@@ -516,7 +524,8 @@
     </section>
 
     <!-- 5. Core Plugins -->
-    <section id="plugins-core">
+    
+<section id="plugins-core">
       <div class="section-header">
         <div class="section-num">5</div>
         <h2>核心插件（影片 09:27）</h2>
@@ -590,7 +599,8 @@
     </section>
 
     <!-- 6. Markdown -->
-    <section id="markdown">
+    
+<section id="markdown">
       <div class="section-header">
         <div class="section-num">6</div>
         <h2>筆記格式（Markdown）（影片 11:12）</h2>
@@ -643,7 +653,8 @@ print("Hello Obsidian")
     </section>
 
     <!-- 7. Links -->
-    <section id="links">
+    
+<section id="links">
       <div class="section-header">
         <div class="section-num">7</div>
         <h2>雙向連結與反向連結（影片 12:25）</h2>
@@ -680,7 +691,8 @@ print("Hello Obsidian")
     </section>
 
     <!-- 8. Embed -->
-    <section id="embed">
+    
+<section id="embed">
       <div class="section-header">
         <div class="section-num">8</div>
         <h2>嵌入筆記與附件（影片 14:32）</h2>
@@ -706,7 +718,8 @@ print("Hello Obsidian")
     </section>
 
     <!-- 9. Graph -->
-    <section id="graph">
+    
+<section id="graph">
       <div class="section-header">
         <div class="section-num">9</div>
         <h2>關係圖譜（Graph View）（影片 15:33）</h2>
@@ -734,7 +747,8 @@ print("Hello Obsidian")
     </section>
 
     <!-- 10. Strategy -->
-    <section id="strategy">
+    
+<section id="strategy">
       <div class="section-header">
         <div class="section-num">10</div>
         <h2>資料夾 vs 連結：點樣組織？（影片 16:26）</h2>
@@ -755,7 +769,8 @@ print("Hello Obsidian")
     <!-- ========== 新增擴充部分 ========== -->
 
     <!-- 11. PARA -->
-    <section id="para">
+    
+<section id="para">
       <div class="section-header">
         <div class="section-num">11</div>
         <h2>PARA 方法（一人公司特別加強）</h2>
@@ -816,7 +831,14 @@ print("Hello Obsidian")
     </section>
 
     <!-- 12. Daily Notes -->
-    <section id="daily">
+    
+
+    <div class="phase-header" style="margin: 3rem 0 1.5rem; padding: 1rem 1.25rem; background: linear-gradient(135deg, rgba(124,58,237,0.2), rgba(236,72,153,0.1)); border-left: 4px solid var(--accent); border-radius: 0 12px 12px 0;">
+      <div style="font-size:0.85rem;color:var(--accent-light);font-weight:600;letter-spacing:0.05em;">學習階段</div>
+      <div style="font-size:1.25rem;font-weight:700;color:#fff;margin-top:0.25rem;">日常使用</div>
+    </div>
+
+<section id="daily">
       <div class="section-header">
         <div class="section-num">12</div>
         <h2>每日筆記 + 週回顧工作流</h2>
@@ -868,7 +890,8 @@ tags: [daily]
     </section>
 
     <!-- 13. Templates -->
-    <section id="templates">
+    
+<section id="templates">
       <div class="section-header">
         <div class="section-num">13</div>
         <h2>實用模板範例（可直接複製）</h2>
@@ -982,9 +1005,331 @@ tags: [resource, learning]
     </section>
 
     <!-- 14. AI Integration -->
-    <section id="ai">
+    
+<section id="reminder">
       <div class="section-header">
         <div class="section-num">14</div>
+        <h2>重要事項如何有效 Reminder</h2>
+      </div>
+
+      <p>Obsidian 本身唔係專門嘅提醒 App，但透過插件可以做到非常有效嘅任務提醒同回顧系統。</p>
+
+      <h3>核心推薦：Tasks 插件</h3>
+      <p>安裝 <strong>Tasks</strong> 插件後，你可以喺任何筆記寫：</p>
+      <pre><code>- [ ] 完成 HADO 海報設計 📅 2026-08-15
+- [ ] 跟進客戶ABC尾款 📅 2026-08-12 ⏫
+- [ ] 每週財務對帳 🔁 every Friday 📅 2026-08-15</code></pre>
+
+      <p>常用符號：</p>
+      <ul>
+        <li><code>📅 YYYY-MM-DD</code>：到期日（Due）</li>
+        <li><code>⏳ YYYY-MM-DD</code>：計劃執行日（Scheduled）</li>
+        <li><code>🔁 every week</code> / <code>every month on the 1st</code>：循環任務</li>
+        <li><code>⏫</code> 高優先、 <code>🔼</code> 中、 <code>🔽</code> 低</li>
+      </ul>
+
+      <h3>點樣令提醒真正有效</h3>
+      <ol class="steps">
+        <li>
+          <strong>集中查看</strong>：建立一篇「任務儀表板」筆記，用 Tasks 查詢顯示：
+          <pre><code>```tasks
+not done
+due before tomorrow
+```</code></pre>
+          同埋「本週到期」、「已過期」等查詢。
+        </li>
+        <li>
+          <strong>配合每日筆記</strong>：每天打開 Daily Note 時，嵌入上面嘅 Tasks 查詢，養成「每日必睇」習慣。
+        </li>
+        <li>
+          <strong>需要系統通知時</strong>：安裝 <strong>Reminder</strong> 插件，它支援 Tasks 格式，可以喺到期時彈出 Obsidian 通知，並可設定提醒時間。
+        </li>
+        <li>
+          <strong>真正重要嘅事</strong>：除咗 Obsidian 內提醒，可同時加落系統日曆（Apple Calendar / Google Calendar）或手機提醒，做到「雙重保險」。
+        </li>
+      </ol>
+
+      <h3>實用範例（一人公司）</h3>
+      <pre><code>- [ ] 提交 Smart Sensor 資助申請 📅 2026-08-20 ⏫
+- [ ] 準備 BNI 分享稿 ⏳ 2026-08-12 📅 2026-08-14
+- [ ] 每月 cross-company 財務摘要 🔁 every month on the 1st 📅 2026-09-01
+- [ ] 跟進逾期應收款 - 遊樂場協會 📅 2026-08-10</code></pre>
+
+      <div class="callout callout-info">
+        <div class="callout-icon">⏰</div>
+        <div class="callout-content">
+          <strong>有效提醒嘅關鍵</strong>
+          唔係「設咗提醒就得」，而係：<br>
+          1. 有到期日<br>
+          2. 有固定地方每日/每週查看（Daily Note 或儀表板）<br>
+          3. 重要事項有系統通知或手機提醒作後盾<br>
+          4. 完成後即刻打勾，保持清單乾淨
+        </div>
+      </div>
+    </section>
+
+    <!-- Sync expanded -->
+    
+<section id="import">
+      <div class="section-header">
+        <div class="section-num">15</div>
+        <h2>從多個 App 匯入 Obsidian 嘅詳細步驟清單</h2>
+      </div>
+
+      <p>你之前把筆記、idea、待辦、私人記錄、經驗散落喺 Google、Apple Notes、Heptabase、Microsoft Notes 等地方。呢個章節提供一套<strong>可執行、分階段</strong>嘅整合方法，避免一次過全倒造成混亂。</p>
+
+      <h3>整體策略（最重要）</h3>
+      <ol class="steps">
+        <li><strong>先建好 Vault 結構</strong>：用 PARA（00 Inbox、01 Projects、02 Areas、03 Resources、04 Archives）。</li>
+        <li><strong>分階段匯入</strong>：先處理高價值 + 近期內容，舊資料慢慢搬。</li>
+        <li><strong>全部先入 Inbox</strong>：匯入後唔好即刻分類，先集中放 <code>00 Inbox/</code>，之後再整理。</li>
+        <li><strong>以 Obsidian 為最終真理來源</strong>：匯入後逐漸減少喺其他 App 寫新內容。</li>
+        <li><strong>敏感私人記錄先手動篩選</strong>：唔好無腦全倒。</li>
+      </ol>
+
+      <h3>準備工作（開始前必做）</h3>
+      <ul>
+        <li>安裝官方插件：<strong>Importer</strong>（設定 → 社群插件 → 搜尋 Importer）</li>
+        <li>安裝 <strong>Templater</strong>（方便之後加 frontmatter）</li>
+        <li>確認 Vault 已建立，並且有 <code>00 Inbox/</code> 資料夾</li>
+        <li>建議先做好同步 + Git 備份（參考下一章），再開始大量匯入</li>
+      </ul>
+
+      <h3>1. 從 Heptabase 匯入（最容易，建議先做）</h3>
+      <ol class="steps">
+        <li>喺 Heptabase Card Library 選擇想匯出嘅卡片（可多選）。</li>
+        <li>點 Export as Markdown，下載 ZIP。</li>
+        <li>解壓後，把 .md 檔案直接拖入 Obsidian 嘅 <code>00 Inbox/</code> 或 <code>03 Resources/</code>。</li>
+        <li>（進階）如果有 All-Data.json，可用社群工具（Heptabase-Export）轉成更乾淨嘅 Wiki 連結格式。</li>
+        <li>匯入後用搜尋檢查連結是否需要手動修正。</li>
+      </ol>
+
+      <h3>2. 從 Google Keep / Google Docs 匯入</h3>
+      <ol class="steps">
+        <li><strong>Google Keep</strong>：用瀏覽器開啟 Keep → 設定 → 匯出資料（Google Takeout 可選 Keep）。下載後通常係 HTML 或 JSON，可用第三方工具轉 Markdown，或手動複製重要筆記。</li>
+        <li><strong>Google Docs</strong>：開啟文件 → 檔案 → 下載 → 純文字 .txt 或用「Markdown 匯出」擴充功能。之後把內容貼入新筆記。</li>
+        <li>大量文件時，可先用 Google Drive 下載整個資料夾，再逐個處理高價值內容。</li>
+        <li>匯入後統一加標籤，例如 <code>#from-google</code>，方便之後清理。</li>
+      </ol>
+
+      <h3>3. 從 Apple Notes 匯入</h3>
+      <ol class="steps">
+        <li>喺 Mac 開啟「備忘錄」App。</li>
+        <li>選擇筆記 → 檔案 → 匯出為 PDF（或複製內容）。</li>
+        <li>重要筆記建議手動複製到 Obsidian，並即時加上標題同雙向連結。</li>
+        <li>大量匯出可用第三方工具（例如 Exporter 或 Shortcuts 自動化），但私人記錄建議人工篩選。</li>
+        <li>匯入後檢查有冇遺漏附件（圖片通常要另外拖入）。</li>
+      </ol>
+
+      <h3>4. 從 Microsoft OneNote / Notes 匯入</h3>
+      <ol class="steps">
+        <li>OneNote：可匯出為 Word (.docx) 或 PDF。之後用 Pandoc 或線上工具轉成 Markdown。</li>
+        <li>較新版本有時支援直接複製內容到 Obsidian。</li>
+        <li>如果有「Microsoft Notes」App，通常只能手動複製或截圖後再整理。</li>
+        <li>建議只搬「仲有價值」嘅頁面，舊會議記錄可先留喺 OneNote 作參考。</li>
+      </ol>
+
+      <h3>5. 其他來源通用方法</h3>
+      <ul>
+        <li>優先使用 Obsidian 官方 <strong>Importer 插件</strong>（支援 Notion、Evernote、Roam、HTML 等）。</li>
+        <li>如果插件唔支援，就「匯出為 Markdown / 純文字 → 放入 Inbox」。</li>
+        <li>待辦事項可集中匯入一個「Tasks Inbox」筆記，之後再用 Tasks 插件管理。</li>
+      </ul>
+
+      <h3>匯入後必須做的清理步驟</h3>
+      <ol class="steps">
+        <li>為每篇重要筆記加上 YAML frontmatter（type、date、company、tags、source）。</li>
+        <li>用雙向連結把相關筆記連起來（唔好只靠資料夾）。</li>
+        <li>刪除明顯重複或過時內容。</li>
+        <li>把已處理完嘅筆記由 Inbox 移去正確嘅 PARA 位置。</li>
+        <li>叫 Hermes 幫你做一次「Inbox 初步分類建議」（可用之前嘅提示詞）。</li>
+      </ol>
+
+      <h3>建議時間表（實戰版）</h3>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>週次</th>
+              <th>重點</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>第 1 週</td>
+              <td>建 Vault + 結構 + 匯入 Heptabase 高價值卡片</td>
+            </tr>
+            <tr>
+              <td>第 2 週</td>
+              <td>處理 Google 同近期 Apple / MS 筆記</td>
+            </tr>
+            <tr>
+              <td>第 3–4 週</td>
+              <td>慢慢清理 Inbox，加連結同 frontmatter</td>
+            </tr>
+            <tr>
+              <td>之後</td>
+              <td>只喺 Obsidian 寫新內容，舊 App 轉為「只讀參考」</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="callout callout-warning">
+        <div class="callout-icon">⚠️</div>
+        <div class="callout-content">
+          <strong>常見錯誤</strong>
+          <ul style="margin-bottom:0;">
+            <li>一次過把幾年筆記全倒入 Vault → 即刻混亂</li>
+            <li>匯入後唔加 frontmatter 同連結 → 之後 Hermes 好難幫你整理</li>
+            <li>同時繼續喺舊 App 大量寫新內容 → 永遠整合唔完</li>
+            <li>忽略備份就開始大量匯入 → 有風險</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="callout callout-tip">
+        <div class="callout-icon">✅</div>
+        <div class="callout-content">
+          <strong>成功關鍵</strong>
+          唔係「完美搬遷」，而係「開始把新知識同重要舊知識沉澱喺一個你擁有、又方便 AI 使用嘅地方」。慢慢來，反而更快見到效果。
+        </div>
+      </div>
+    </section>
+
+    <!-- Trello -->
+    
+
+    <div class="phase-header" style="margin: 3rem 0 1.5rem; padding: 1rem 1.25rem; background: linear-gradient(135deg, rgba(124,58,237,0.2), rgba(236,72,153,0.1)); border-left: 4px solid var(--accent); border-radius: 0 12px 12px 0;">
+      <div style="font-size:0.85rem;color:var(--accent-light);font-weight:600;letter-spacing:0.05em;">學習階段</div>
+      <div style="font-size:1.25rem;font-weight:700;color:#fff;margin-top:0.25rem;">工具整合</div>
+    </div>
+
+<section id="trello">
+      <div class="section-header">
+        <div class="section-num">16</div>
+        <h2>Trello 如何配合 Obsidian 使用</h2>
+      </div>
+
+      <p>Trello 擅長視覺化看板同團隊協作，Obsidian 擅長深度筆記同知識連結。兩者可以分工，而唔一定要完全取代對方。</p>
+
+      <h3>推薦配合方式</h3>
+      <div class="card-grid">
+        <div class="feature-card">
+          <h4>Trello 負責</h4>
+          <p>視覺看板、多人協作、簡單任務流動（To Do → Doing → Done）、外部合作夥伴可見嘅進度。</p>
+        </div>
+        <div class="feature-card">
+          <h4>Obsidian 負責</h4>
+          <p>詳細說明、會議記錄、決策原因、相關知識連結、私人思考、之後俾 Hermes 讀取嘅內容。</p>
+        </div>
+      </div>
+
+      <h3>實用整合方法</h3>
+      <ol class="steps">
+        <li>
+          <strong>手動連結（最簡單穩定）</strong><br>
+          喺 Obsidian 筆記入面直接貼 Trello 卡片連結：<br>
+          <code>[Trello 卡片](https://trello.com/c/xxxxx)</code><br>
+          或者用雙向思維：Trello 卡片描述入面放 Obsidian 筆記連結（如果用 Obsidian Publish 或本地路徑說明）。
+        </li>
+        <li>
+          <strong>用社群插件「Trello」</strong><br>
+          安裝 <code>obsidian-trello</code> 插件，可以用 API Token 連接 Trello 卡片到筆記，喺 Obsidian 入面睇到標籤、checklist、留言。
+        </li>
+        <li>
+          <strong>用 Kanban 插件代替簡單 Trello 用途</strong><br>
+          如果主要係個人專案管理，可直接用 Obsidian 嘅 <strong>Kanban</strong> 插件，卡片本身就係 Markdown 筆記，完全本地、可被搜尋同連結。
+        </li>
+        <li>
+          <strong>用 n8n / Zapier 自動化</strong><br>
+          例如：Trello 卡片移動到「Done」時，自動喺 Obsidian 建立或更新一篇完成記錄筆記。
+        </li>
+      </ol>
+
+      <h3>建議工作流（一人公司）</h3>
+      <ul>
+        <li>對外或需要視覺進度嘅專案 → 繼續用 Trello。</li>
+        <li>每個重要 Trello 卡片對應一篇 Obsidian 筆記（放詳細內容、會議、決策）。</li>
+        <li>每日或每週喺 Obsidian 用 Dataview / Tasks 查看相關待辦，而唔使成日切換 App。</li>
+        <li>完成後把關鍵經驗沉澱返 Obsidian，Trello 卡片可封存。</li>
+      </ul>
+
+      <div class="callout callout-tip">
+        <div class="callout-icon">📋</div>
+        <div class="callout-content">
+          <strong>一句話</strong>
+          Trello 管「進度可視化」，Obsidian 管「知識同決策沉澱」。兩者用連結連接，效果最好。
+        </div>
+      </div>
+    </section>
+
+    <!-- Reminder -->
+    
+<section id="heptabase">
+      <div class="section-header">
+        <div class="section-num">17</div>
+        <h2>Heptabase 如何配合 Obsidian 使用</h2>
+      </div>
+
+      <p>Heptabase 係一款以<strong>視覺化白板 + 卡片</strong>為核心嘅知識管理工具，特別擅長做研究、概念地圖、PDF 高亮同主題整理。它同 Obsidian 可以形成很好嘅互補關係。</p>
+
+      <div class="card-grid">
+        <div class="feature-card">
+          <h4>Heptabase 適合做咩</h4>
+          <p>視覺感測、研究白板、PDF 高亮整理、卡片式原子筆記、主題地圖。當你需要「睇到全局」同空間化思考時特別強。</p>
+        </div>
+        <div class="feature-card">
+          <h4>Obsidian 適合做咩</h4>
+          <p>長期擁有嘅本地 Markdown 知識庫、雙向連結、插件生態、長文寫作、Dataview 查詢、同 AI / Hermes 深度整合。</p>
+        </div>
+      </div>
+
+      <h3>推薦配合方式</h3>
+      <ol class="steps">
+        <li>
+          <strong>研究階段用 Heptabase</strong><br>
+          讀 PDF、做高亮、在白板上整理概念卡片、建立主題地圖。呢個階段重點係「理解同連結想法」。
+        </li>
+        <li>
+          <strong>沉澱階段匯出到 Obsidian</strong><br>
+          當某個主題或研究告一段落，將重要卡片匯出成 Markdown，放入 Obsidian Vault（例如 <code>03 Resources/</code> 或對應專案資料夾）。
+        </li>
+        <li>
+          <strong>日常同長期用 Obsidian</strong><br>
+          會議、財務、每日筆記、專案追蹤、AI 處理全部喺 Obsidian 進行。Heptabase 作為「視覺思考層」，唔使取代 Obsidian。
+        </li>
+      </ol>
+
+      <h3>點樣從 Heptabase 匯出到 Obsidian</h3>
+      <ul>
+        <li><strong>官方方式</strong>：喺 Card Library 選擇卡片 → Export as Markdown。匯出後會得到 .md 檔案（通常連附件），可以拖入 Obsidian Vault。</li>
+        <li><strong>完整資料匯出</strong>：Heptabase 支援匯出 All-Data.json。社群有工具（例如 Heptabase-Export）可以將卡片轉成乾淨嘅 Markdown + Wiki 連結，甚至轉成 Obsidian Canvas 檔。</li>
+        <li><strong>注意</strong>：匯出後嘅連結有時係 Heptabase 內部連結，需要手動或用腳本改成 <code>[[筆記名]]</code> 格式。</li>
+      </ul>
+
+      <h3>實用建議（適合你）</h3>
+      <ul>
+        <li>用 Heptabase 做新主題研究（例如新 AI 工具、HADO 活動設計、課程大綱腦力激盪）。</li>
+        <li>研究完成後，將核心卡片同結論匯入 Obsidian，並加上雙向連結同 frontmatter，方便 Hermes 之後讀取。</li>
+        <li>唔好兩邊同時維護同一份筆記，避免內容漂移。以 Obsidian 作為「最終真理來源」（source of truth）。</li>
+        <li>Heptabase 有自動桌面備份，但仍然建議重要白板定期匯出。</li>
+      </ul>
+
+      <div class="callout callout-tip">
+        <div class="callout-icon">🗺️</div>
+        <div class="callout-content">
+          <strong>一句話總結</strong>
+          Heptabase = 視覺思考同研究白板；Obsidian = 長期擁有、可被 AI 讀取嘅知識庫。兩者分工，效果最好。
+        </div>
+      </div>
+    </section>
+
+    <!-- Import from multiple apps -->
+    
+<section id="ai">
+      <div class="section-header">
+        <div class="section-num">18</div>
         <h2>AI + Obsidian 整合</h2>
       </div>
 
@@ -1030,73 +1375,10 @@ tags: [resource, learning]
     </section>
 
     <!-- Hermes Agent -->
-    <section id="hermes">
+    
+<section id="finance">
       <div class="section-header">
-        <div class="section-num">15</div>
-        <h2>Hermes Agent 點樣讀取 Vault</h2>
-      </div>
-
-      <p>Hermes（你嘅一人公司大腦）同 Obsidian 非常合拍，因為 Vault 本質上就係一個普通資料夾入面嘅 Markdown 檔案。Hermes 只要有讀檔權限，就可以直接理解、搜尋同整理你嘅知識庫。</p>
-
-      <h3>方法一：直接讀取本地 Vault 資料夾（最推薦）</h3>
-      <p>如果 Hermes 跑喺你本機（Desktop）或者有檔案系統存取權限嘅環境：</p>
-      <ol class="steps">
-        <li>喺 Hermes 嘅系統提示（Soul.md / AGENTS.md）入面明確寫低 Vault 路徑，例如：
-          <pre><code>你的知識庫位置：C:\Users\你的用戶名\Documents\我的第二大腦
-或者 macOS/Linux：/Users/你的用戶名/Documents/我的第二大腦</code></pre>
-        </li>
-        <li>畀 Hermes 工具權限讀取該資料夾（list_dir、read_file、search 等）。</li>
-        <li>之後你可以自然同 Hermes 講：
-          <ul>
-            <li>「幫我搵所有關於 HADO 選拔賽嘅筆記」</li>
-            <li>「總結本月 Succeed Technology 嘅會議記錄」</li>
-            <li>「將 Inbox 入面未分類嘅財務筆記分類到對應公司」</li>
-          </ul>
-        </li>
-      </ol>
-
-      <h3>方法二：用 YAML Frontmatter + 一致標籤（令 AI 更容易理解）</h3>
-      <p>為咗令 Hermes 更容易準確讀取同分類，建議財務同專案筆記都用統一嘅 frontmatter：</p>
-      <pre><code>---
-type: finance / meeting / project / receipt
-company: Succeed Technology / HADO / Talent Academy / VisionTouch / StoreBox
-date: 2026-08-08
-amount: 12800
-currency: HKD
-category: 收入 / 支出 / 應收 / 應付
-tags: [finance, Succeed]
-status: 已對帳 / 待確認
----</code></pre>
-      <p>Hermes 可以根據呢啲欄位做過濾、統計同報表生成。</p>
-
-      <h3>方法三：透過 n8n 或 Webhook 自動餵資料</h3>
-      <ul>
-        <li>當你喺 Obsidian 新增或更新財務筆記時，用 n8n 監聽資料夾變化（或者用 Obsidian 插件觸發）。</li>
-        <li>將新筆記內容 POST 去 Hermes 嘅 webhook 或 Telegram bot。</li>
-        <li>Hermes 處理後可以回寫結果（例如產生月度摘要筆記）返去 Vault。</li>
-      </ul>
-
-      <h3>方法四：MCP / 工具調用（進階）</h3>
-      <p>如果 Hermes 支援 MCP（Model Context Protocol）或類似工具協議，可以設定一個「Obsidian Vault」工具，讓 Agent 動態 list、search、read 指定路徑嘅筆記。</p>
-
-      <div class="callout callout-tip">
-        <div class="callout-icon">🧠</div>
-        <div class="callout-content">
-          <strong>實戰建議（適合你而家嘅 setup）</strong>
-          <ul style="margin-bottom:0;">
-            <li>將 Vault 路徑寫入 Hermes 嘅 User.md 或 Soul.md，令 Rem 永遠知道知識庫位置。</li>
-            <li>財務相關筆記統一放喺 <code>02 Areas/財務與對帳/</code> 或 <code>03 Resources/財務記錄/</code>，並加上一致嘅 <code>company</code> 同 <code>type</code> frontmatter。</li>
-            <li>定期叫 Hermes：「幫我掃描 Vault 入面所有 type:finance 嘅筆記，產生本月跨公司現金流摘要」。</li>
-            <li>如果 Hermes 跑喺 Zeabur，記得將 Vault 用 Git 或同步工具保持最新，或者用 API 方式讀取。</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <!-- Finance Templates -->
-    <section id="finance">
-      <div class="section-header">
-        <div class="section-num">16</div>
+        <div class="section-num">19</div>
         <h2>財務對帳相關模板</h2>
       </div>
 
@@ -1293,134 +1575,194 @@ tags: [finance, 支出]
     </section>
 
     <!-- n8n Workflows -->
-    <section id="n8n">
+    
+<section id="dataview">
       <div class="section-header">
-        <div class="section-num">17</div>
-        <h2>n8n 工作流例子（Obsidian + Hermes + 財務）</h2>
+        <div class="section-num">20</div>
+        <h2>Dataview 入門（進階但好有用）</h2>
       </div>
 
-      <p>n8n 非常適合做「中間層」，把 Obsidian Vault、銀行通知、Hermes Agent、Google Sheets 連接起嚟。以下係幾個實用工作流例子，你可以直接參考同修改。</p>
+      <p>Dataview 係最受歡迎嘅社群插件之一，可以將你嘅筆記當成資料庫嚟查詢。</p>
 
-      <h3>工作流 1：新財務筆記自動通知 Hermes</h3>
-      <p><strong>目標</strong>：當你喺 Obsidian 新增或修改 type:finance 筆記時，自動將內容送到 Hermes 處理。</p>
-      <ol>
-        <li><strong>Trigger</strong>：Local File Trigger 或 Webhook（如果用 Obsidian 插件發出 webhook），監控 Vault 入面 <code>**/財務*/**</code> 或特定資料夾。</li>
-        <li><strong>Filter</strong>：只處理含有 <code>type: finance</code> 嘅 .md 檔案。</li>
-        <li><strong>Read File</strong>：讀取筆記完整內容（包括 frontmatter）。</li>
-        <li><strong>HTTP Request / Telegram</strong>：將內容 POST 去 Hermes 嘅 webhook 或 Telegram bot，附帶指令例如「請分類呢筆財務記錄並更新對應公司摘要」。</li>
-        <li>（可選）Hermes 處理後回傳結果，再用 n8n 寫返一篇「AI 處理結果」筆記入 Vault。</li>
-      </ol>
+      <h3>安裝</h3>
+      <p>設定 → 社群插件 → 瀏覽 → 搜尋「Dataview」→ 安裝並啟用。</p>
 
-      <h3>工作流 2：每月自動產生跨公司財務摘要</h3>
-      <p><strong>目標</strong>：每月 1 號自動掃描上月所有財務筆記，叫 Hermes 產生摘要，並寫入 Vault。</p>
-      <ol>
-        <li><strong>Cron</strong>：每月 1 號 09:00 觸發（時區設為 Asia/Hong_Kong）。</li>
-        <li><strong>Read multiple files</strong>：讀取 Vault 入面所有符合條件嘅 finance 筆記（可以用 Execute Command 跑 <code>find</code> 或用 n8n 嘅檔案節點）。</li>
-        <li><strong>Aggregate</strong>：將內容整合成一個大 prompt。</li>
-        <li><strong>Call Hermes / LLM</strong>：送出提示詞「請根據以下財務筆記，按公司產生上月收入、支出、淨額同重要事項摘要，用指定模板格式輸出」。</li>
-        <li><strong>Write File</strong>：將 Hermes 回傳嘅 Markdown 寫入 <code>02 Areas/財務與對帳/2026-07-月度摘要.md</code>。</li>
-      </ol>
+      <h3>簡單例子</h3>
+      <p>喺任何筆記入面寫以下程式碼區塊，就會自動顯示結果：</p>
 
-      <h3>工作流 3：銀行郵件 / 通知 → 建立財務筆記草稿</h3>
-      <p><strong>目標</strong>：收到銀行轉帳通知郵件後，自動建立一筆財務筆記草稿，等你確認。</p>
-      <ol>
-        <li><strong>Email Trigger</strong>（IMAP）或 Gmail Trigger：監控指定銀行通知郵件。</li>
-        <li><strong>Extract</strong>：用 Regex 或 AI 節點抽出金額、日期、對方、參考編號。</li>
-        <li><strong>Create File</strong>：喺 Vault 嘅 Inbox 或財務資料夾建立一篇用「銀行轉帳模板」填好嘅 .md 檔案。</li>
-        <li><strong>Notify</strong>：Telegram 通知你「有新財務草稿，請確認同補充公司分類」。</li>
-      </ol>
+      <pre><code>```dataview
+TABLE status, due, company
+FROM "01 Projects"
+WHERE status = "進行中"
+SORT due ASC
+```</code></pre>
 
-      <h3>工作流 4：Google Sheets 對帳結果同步返 Obsidian</h3>
-      <p>你之前有用 n8n 合併多個 Google Sheets。可以再加一步：當對帳完成後，將結果寫成 Markdown 筆記入 Vault，方便 Hermes 之後查閱。</p>
+      <p>上面會列出所有「進行中」嘅專案，並顯示狀態、截止日期同公司。</p>
 
-      <div class="callout callout-tip">
-        <div class="callout-icon">⚙️</div>
-        <div class="callout-content">
-          <strong>實作提示</strong>
-          <ul style="margin-bottom:0;">
-            <li>Vault 如果用 iCloud / OneDrive 同步，n8n 最好跑喺可以存取同一個資料夾嘅機器（本機或有掛載嘅 VPS）。</li>
-            <li>如果 Hermes 喺 Zeabur，可以用 Webhook 節點直接 call Hermes 嘅 endpoint。</li>
-            <li>建議先做「手動觸發」版本測試，確認無誤先改成自動 Cron。</li>
-            <li>財務資料敏感，確保 n8n 同 Hermes 之間傳輸有加密（HTTPS），同埋唔好將完整銀行密碼寫入筆記。</li>
-          </ul>
-        </div>
-      </div>
+      <pre><code>```dataview
+LIST
+FROM #meeting
+WHERE date >= date(today) - dur(7 days)
+SORT date DESC
+```</code></pre>
 
-      <h3>更具體嘅 n8n 節點設定例子</h3>
-
-      <h4>1. Cron 節點（每月 1 號 09:00 HKT）</h4>
-      <pre><code>節點類型：Cron
-Trigger Times：
-  Mode: Every Month
-  Hour: 9
-  Minute: 0
-時區：Asia/Hong_Kong（重要！）</code></pre>
-
-      <h4>2. Local File Trigger（監控財務資料夾）</h4>
-      <pre><code>節點類型：Local File Trigger
-Trigger On：Changes Involving a Specific Folder
-Folder to Watch：/path/to/Vault/02 Areas/財務與對帳
-Events：File Added, File Changed
-（可選）Watch Subfolders：Yes</code></pre>
-
-      <h4>3. Code 節點讀取檔案內容（JavaScript）</h4>
-      <pre><code>const fs = require('fs');
-const filePath = items[0].json.path || items[0].json.fileName;
-const content = fs.readFileSync(filePath, 'utf8');
-return [{
-  json: {
-    content: content,
-    path: filePath,
-    filename: filePath.split(/[/\\]/).pop()
-  }
-}];</code></pre>
-
-      <h4>4. HTTP Request 節點（呼叫 Hermes Webhook）</h4>
-      <pre><code>節點類型：HTTP Request
-Method：POST
-URL：https://你的-hermes網域/webhook  或  https://api.telegram.org/bot&lt;TOKEN&gt;/sendMessage
-Authentication：Header Auth（建議加 secret）
-Body Content Type：JSON
-Specify Body：Using JSON
-Body：
-{
-  "message": "請處理以下財務筆記並分類：\n\n{{ $json.content }}",
-  "source": "obsidian-n8n",
-  "filename": "{{ $json.filename }}"
-}</code></pre>
-
-      <h4>5. Write File 節點（寫返摘要入 Vault）</h4>
-      <pre><code>節點類型：Write Binary File 或「Move Binary Data」+ 寫入
-File Path：/path/to/Vault/02 Areas/財務與對帳/{{ $now.toFormat('yyyy-MM') }}-月度摘要.md
-File Content：{{ $json.hermes_response }}
-（可先用 Execute Command 做 mkdir -p 確保目錄存在）</code></pre>
-
-      <h4>6. Telegram 節點（通知你）</h4>
-      <pre><code>節點類型：Telegram
-Credential：你的 Telegram Bot API
-Operation：Send Message
-Chat ID：你的 Chat ID（可用 @userinfobot 查）
-Text：
-🆕 新財務筆記已建立草稿
-檔名：{{ $json.filename }}
-請打開 Obsidian 確認公司分類同金額。
-Additional Fields → Parse Mode：Markdown</code></pre>
+      <p>呢個會列出過去 7 日所有會議筆記。</p>
 
       <div class="callout callout-info">
-        <div class="callout-icon">🧪</div>
+        <div class="callout-icon">📊</div>
         <div class="callout-content">
-          <strong>測試順序建議</strong><br>
-          1. 先用 Manual Trigger + 固定測試檔案，確認讀取同 HTTP Request 正常。<br>
-          2. 再加 File Trigger 或 Cron。<br>
-          3. 最後先加寫入 Vault 同 Telegram 通知。
+          <strong>進階用途</strong>
+          你可以建立一個「儀表板」筆記，用多個 Dataview 查詢同時顯示：進行中專案、本週待辦、最近會議、未回覆嘅客戶等。非常適合一人公司日常開機第一眼就睇到全局。
         </div>
       </div>
     </section>
 
-    <!-- Hermes Prompt Templates -->
-    <section id="hermes-prompt">
+    <!-- 18. Plugins advanced -->
+    
+<section id="plugins">
       <div class="section-header">
-        <div class="section-num">18</div>
+        <div class="section-num">21</div>
+        <h2>推薦插件進階清單</h2>
+      </div>
+
+      <p>先用核心功能 1–2 星期，之後先按需要安裝。以下係實用推薦：</p>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>插件</th>
+              <th>用途</th>
+              <th>優先級</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Calendar</td>
+              <td>日曆視圖，點擊日期開每日筆記</td>
+              <td>高</td>
+            </tr>
+            <tr>
+              <td>Templater</td>
+              <td>比核心模板更強大，支援動態變數同腳本</td>
+              <td>高</td>
+            </tr>
+            <tr>
+              <td>Dataview</td>
+              <td>用類似 SQL 方式查詢筆記</td>
+              <td>高</td>
+            </tr>
+            <tr>
+              <td>Tasks</td>
+              <td>進階待辦管理，支援截止日期同循環</td>
+              <td>中</td>
+            </tr>
+            <tr>
+              <td>QuickAdd</td>
+              <td>快速捕捉想法到指定位置</td>
+              <td>中</td>
+            </tr>
+            <tr>
+              <td>Excalidraw</td>
+              <td>手繪風格白板，適合腦力激盪</td>
+              <td>中</td>
+            </tr>
+            <tr>
+              <td>Omnisearch</td>
+              <td>更強大嘅全文搜尋</td>
+              <td>中</td>
+            </tr>
+            <tr>
+              <td>Smart Connections</td>
+              <td>AI 推薦相關筆記</td>
+              <td>進階</td>
+            </tr>
+            <tr>
+              <td>Copilot</td>
+              <td>喺 Obsidian 入面直接同 AI 對話</td>
+              <td>進階</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Heptabase -->
+    
+
+    <div class="phase-header" style="margin: 3rem 0 1.5rem; padding: 1rem 1.25rem; background: linear-gradient(135deg, rgba(124,58,237,0.2), rgba(236,72,153,0.1)); border-left: 4px solid var(--accent); border-radius: 0 12px 12px 0;">
+      <div style="font-size:0.85rem;color:var(--accent-light);font-weight:600;letter-spacing:0.05em;">學習階段</div>
+      <div style="font-size:1.25rem;font-weight:700;color:#fff;margin-top:0.25rem;">進階自動化</div>
+    </div>
+
+<section id="hermes">
+      <div class="section-header">
+        <div class="section-num">22</div>
+        <h2>Hermes Agent 點樣讀取 Vault</h2>
+      </div>
+
+      <p>Hermes（你嘅一人公司大腦）同 Obsidian 非常合拍，因為 Vault 本質上就係一個普通資料夾入面嘅 Markdown 檔案。Hermes 只要有讀檔權限，就可以直接理解、搜尋同整理你嘅知識庫。</p>
+
+      <h3>方法一：直接讀取本地 Vault 資料夾（最推薦）</h3>
+      <p>如果 Hermes 跑喺你本機（Desktop）或者有檔案系統存取權限嘅環境：</p>
+      <ol class="steps">
+        <li>喺 Hermes 嘅系統提示（Soul.md / AGENTS.md）入面明確寫低 Vault 路徑，例如：
+          <pre><code>你的知識庫位置：C:\Users\你的用戶名\Documents\我的第二大腦
+或者 macOS/Linux：/Users/你的用戶名/Documents/我的第二大腦</code></pre>
+        </li>
+        <li>畀 Hermes 工具權限讀取該資料夾（list_dir、read_file、search 等）。</li>
+        <li>之後你可以自然同 Hermes 講：
+          <ul>
+            <li>「幫我搵所有關於 HADO 選拔賽嘅筆記」</li>
+            <li>「總結本月 Succeed Technology 嘅會議記錄」</li>
+            <li>「將 Inbox 入面未分類嘅財務筆記分類到對應公司」</li>
+          </ul>
+        </li>
+      </ol>
+
+      <h3>方法二：用 YAML Frontmatter + 一致標籤（令 AI 更容易理解）</h3>
+      <p>為咗令 Hermes 更容易準確讀取同分類，建議財務同專案筆記都用統一嘅 frontmatter：</p>
+      <pre><code>---
+type: finance / meeting / project / receipt
+company: Succeed Technology / HADO / Talent Academy / VisionTouch / StoreBox
+date: 2026-08-08
+amount: 12800
+currency: HKD
+category: 收入 / 支出 / 應收 / 應付
+tags: [finance, Succeed]
+status: 已對帳 / 待確認
+---</code></pre>
+      <p>Hermes 可以根據呢啲欄位做過濾、統計同報表生成。</p>
+
+      <h3>方法三：透過 n8n 或 Webhook 自動餵資料</h3>
+      <ul>
+        <li>當你喺 Obsidian 新增或更新財務筆記時，用 n8n 監聽資料夾變化（或者用 Obsidian 插件觸發）。</li>
+        <li>將新筆記內容 POST 去 Hermes 嘅 webhook 或 Telegram bot。</li>
+        <li>Hermes 處理後可以回寫結果（例如產生月度摘要筆記）返去 Vault。</li>
+      </ul>
+
+      <h3>方法四：MCP / 工具調用（進階）</h3>
+      <p>如果 Hermes 支援 MCP（Model Context Protocol）或類似工具協議，可以設定一個「Obsidian Vault」工具，讓 Agent 動態 list、search、read 指定路徑嘅筆記。</p>
+
+      <div class="callout callout-tip">
+        <div class="callout-icon">🧠</div>
+        <div class="callout-content">
+          <strong>實戰建議（適合你而家嘅 setup）</strong>
+          <ul style="margin-bottom:0;">
+            <li>將 Vault 路徑寫入 Hermes 嘅 User.md 或 Soul.md，令 Rem 永遠知道知識庫位置。</li>
+            <li>財務相關筆記統一放喺 <code>02 Areas/財務與對帳/</code> 或 <code>03 Resources/財務記錄/</code>，並加上一致嘅 <code>company</code> 同 <code>type</code> frontmatter。</li>
+            <li>定期叫 Hermes：「幫我掃描 Vault 入面所有 type:finance 嘅筆記，產生本月跨公司現金流摘要」。</li>
+            <li>如果 Hermes 跑喺 Zeabur，記得將 Vault 用 Git 或同步工具保持最新，或者用 API 方式讀取。</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Finance Templates -->
+    
+<section id="hermes-prompt">
+      <div class="section-header">
+        <div class="section-num">23</div>
         <h2>Hermes 系統提示詞範本（Soul.md / User.md）</h2>
       </div>
 
@@ -1566,429 +1908,140 @@ Content-Type: application/json
     </section>
 
     <!-- Dataview -->
-    <section id="dataview">
+    
+<section id="n8n">
       <div class="section-header">
-        <div class="section-num">19</div>
-        <h2>Dataview 入門（進階但好有用）</h2>
+        <div class="section-num">24</div>
+        <h2>n8n 工作流例子（Obsidian + Hermes + 財務）</h2>
       </div>
 
-      <p>Dataview 係最受歡迎嘅社群插件之一，可以將你嘅筆記當成資料庫嚟查詢。</p>
+      <p>n8n 非常適合做「中間層」，把 Obsidian Vault、銀行通知、Hermes Agent、Google Sheets 連接起嚟。以下係幾個實用工作流例子，你可以直接參考同修改。</p>
 
-      <h3>安裝</h3>
-      <p>設定 → 社群插件 → 瀏覽 → 搜尋「Dataview」→ 安裝並啟用。</p>
-
-      <h3>簡單例子</h3>
-      <p>喺任何筆記入面寫以下程式碼區塊，就會自動顯示結果：</p>
-
-      <pre><code>```dataview
-TABLE status, due, company
-FROM "01 Projects"
-WHERE status = "進行中"
-SORT due ASC
-```</code></pre>
-
-      <p>上面會列出所有「進行中」嘅專案，並顯示狀態、截止日期同公司。</p>
-
-      <pre><code>```dataview
-LIST
-FROM #meeting
-WHERE date >= date(today) - dur(7 days)
-SORT date DESC
-```</code></pre>
-
-      <p>呢個會列出過去 7 日所有會議筆記。</p>
-
-      <div class="callout callout-info">
-        <div class="callout-icon">📊</div>
-        <div class="callout-content">
-          <strong>進階用途</strong>
-          你可以建立一個「儀表板」筆記，用多個 Dataview 查詢同時顯示：進行中專案、本週待辦、最近會議、未回覆嘅客戶等。非常適合一人公司日常開機第一眼就睇到全局。
-        </div>
-      </div>
-    </section>
-
-    <!-- 18. Plugins advanced -->
-    <section id="plugins">
-      <div class="section-header">
-        <div class="section-num">20</div>
-        <h2>推薦插件進階清單</h2>
-      </div>
-
-      <p>先用核心功能 1–2 星期，之後先按需要安裝。以下係實用推薦：</p>
-
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th>插件</th>
-              <th>用途</th>
-              <th>優先級</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Calendar</td>
-              <td>日曆視圖，點擊日期開每日筆記</td>
-              <td>高</td>
-            </tr>
-            <tr>
-              <td>Templater</td>
-              <td>比核心模板更強大，支援動態變數同腳本</td>
-              <td>高</td>
-            </tr>
-            <tr>
-              <td>Dataview</td>
-              <td>用類似 SQL 方式查詢筆記</td>
-              <td>高</td>
-            </tr>
-            <tr>
-              <td>Tasks</td>
-              <td>進階待辦管理，支援截止日期同循環</td>
-              <td>中</td>
-            </tr>
-            <tr>
-              <td>QuickAdd</td>
-              <td>快速捕捉想法到指定位置</td>
-              <td>中</td>
-            </tr>
-            <tr>
-              <td>Excalidraw</td>
-              <td>手繪風格白板，適合腦力激盪</td>
-              <td>中</td>
-            </tr>
-            <tr>
-              <td>Omnisearch</td>
-              <td>更強大嘅全文搜尋</td>
-              <td>中</td>
-            </tr>
-            <tr>
-              <td>Smart Connections</td>
-              <td>AI 推薦相關筆記</td>
-              <td>進階</td>
-            </tr>
-            <tr>
-              <td>Copilot</td>
-              <td>喺 Obsidian 入面直接同 AI 對話</td>
-              <td>進階</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
-
-    <!-- Heptabase -->
-    <section id="heptabase">
-      <div class="section-header">
-        <div class="section-num">21</div>
-        <h2>Heptabase 如何配合 Obsidian 使用</h2>
-      </div>
-
-      <p>Heptabase 係一款以<strong>視覺化白板 + 卡片</strong>為核心嘅知識管理工具，特別擅長做研究、概念地圖、PDF 高亮同主題整理。它同 Obsidian 可以形成很好嘅互補關係。</p>
-
-      <div class="card-grid">
-        <div class="feature-card">
-          <h4>Heptabase 適合做咩</h4>
-          <p>視覺感測、研究白板、PDF 高亮整理、卡片式原子筆記、主題地圖。當你需要「睇到全局」同空間化思考時特別強。</p>
-        </div>
-        <div class="feature-card">
-          <h4>Obsidian 適合做咩</h4>
-          <p>長期擁有嘅本地 Markdown 知識庫、雙向連結、插件生態、長文寫作、Dataview 查詢、同 AI / Hermes 深度整合。</p>
-        </div>
-      </div>
-
-      <h3>推薦配合方式</h3>
-      <ol class="steps">
-        <li>
-          <strong>研究階段用 Heptabase</strong><br>
-          讀 PDF、做高亮、在白板上整理概念卡片、建立主題地圖。呢個階段重點係「理解同連結想法」。
-        </li>
-        <li>
-          <strong>沉澱階段匯出到 Obsidian</strong><br>
-          當某個主題或研究告一段落，將重要卡片匯出成 Markdown，放入 Obsidian Vault（例如 <code>03 Resources/</code> 或對應專案資料夾）。
-        </li>
-        <li>
-          <strong>日常同長期用 Obsidian</strong><br>
-          會議、財務、每日筆記、專案追蹤、AI 處理全部喺 Obsidian 進行。Heptabase 作為「視覺思考層」，唔使取代 Obsidian。
-        </li>
+      <h3>工作流 1：新財務筆記自動通知 Hermes</h3>
+      <p><strong>目標</strong>：當你喺 Obsidian 新增或修改 type:finance 筆記時，自動將內容送到 Hermes 處理。</p>
+      <ol>
+        <li><strong>Trigger</strong>：Local File Trigger 或 Webhook（如果用 Obsidian 插件發出 webhook），監控 Vault 入面 <code>**/財務*/**</code> 或特定資料夾。</li>
+        <li><strong>Filter</strong>：只處理含有 <code>type: finance</code> 嘅 .md 檔案。</li>
+        <li><strong>Read File</strong>：讀取筆記完整內容（包括 frontmatter）。</li>
+        <li><strong>HTTP Request / Telegram</strong>：將內容 POST 去 Hermes 嘅 webhook 或 Telegram bot，附帶指令例如「請分類呢筆財務記錄並更新對應公司摘要」。</li>
+        <li>（可選）Hermes 處理後回傳結果，再用 n8n 寫返一篇「AI 處理結果」筆記入 Vault。</li>
       </ol>
 
-      <h3>點樣從 Heptabase 匯出到 Obsidian</h3>
-      <ul>
-        <li><strong>官方方式</strong>：喺 Card Library 選擇卡片 → Export as Markdown。匯出後會得到 .md 檔案（通常連附件），可以拖入 Obsidian Vault。</li>
-        <li><strong>完整資料匯出</strong>：Heptabase 支援匯出 All-Data.json。社群有工具（例如 Heptabase-Export）可以將卡片轉成乾淨嘅 Markdown + Wiki 連結，甚至轉成 Obsidian Canvas 檔。</li>
-        <li><strong>注意</strong>：匯出後嘅連結有時係 Heptabase 內部連結，需要手動或用腳本改成 <code>[[筆記名]]</code> 格式。</li>
-      </ul>
+      <h3>工作流 2：每月自動產生跨公司財務摘要</h3>
+      <p><strong>目標</strong>：每月 1 號自動掃描上月所有財務筆記，叫 Hermes 產生摘要，並寫入 Vault。</p>
+      <ol>
+        <li><strong>Cron</strong>：每月 1 號 09:00 觸發（時區設為 Asia/Hong_Kong）。</li>
+        <li><strong>Read multiple files</strong>：讀取 Vault 入面所有符合條件嘅 finance 筆記（可以用 Execute Command 跑 <code>find</code> 或用 n8n 嘅檔案節點）。</li>
+        <li><strong>Aggregate</strong>：將內容整合成一個大 prompt。</li>
+        <li><strong>Call Hermes / LLM</strong>：送出提示詞「請根據以下財務筆記，按公司產生上月收入、支出、淨額同重要事項摘要，用指定模板格式輸出」。</li>
+        <li><strong>Write File</strong>：將 Hermes 回傳嘅 Markdown 寫入 <code>02 Areas/財務與對帳/2026-07-月度摘要.md</code>。</li>
+      </ol>
 
-      <h3>實用建議（適合你）</h3>
-      <ul>
-        <li>用 Heptabase 做新主題研究（例如新 AI 工具、HADO 活動設計、課程大綱腦力激盪）。</li>
-        <li>研究完成後，將核心卡片同結論匯入 Obsidian，並加上雙向連結同 frontmatter，方便 Hermes 之後讀取。</li>
-        <li>唔好兩邊同時維護同一份筆記，避免內容漂移。以 Obsidian 作為「最終真理來源」（source of truth）。</li>
-        <li>Heptabase 有自動桌面備份，但仍然建議重要白板定期匯出。</li>
-      </ul>
+      <h3>工作流 3：銀行郵件 / 通知 → 建立財務筆記草稿</h3>
+      <p><strong>目標</strong>：收到銀行轉帳通知郵件後，自動建立一筆財務筆記草稿，等你確認。</p>
+      <ol>
+        <li><strong>Email Trigger</strong>（IMAP）或 Gmail Trigger：監控指定銀行通知郵件。</li>
+        <li><strong>Extract</strong>：用 Regex 或 AI 節點抽出金額、日期、對方、參考編號。</li>
+        <li><strong>Create File</strong>：喺 Vault 嘅 Inbox 或財務資料夾建立一篇用「銀行轉帳模板」填好嘅 .md 檔案。</li>
+        <li><strong>Notify</strong>：Telegram 通知你「有新財務草稿，請確認同補充公司分類」。</li>
+      </ol>
+
+      <h3>工作流 4：Google Sheets 對帳結果同步返 Obsidian</h3>
+      <p>你之前有用 n8n 合併多個 Google Sheets。可以再加一步：當對帳完成後，將結果寫成 Markdown 筆記入 Vault，方便 Hermes 之後查閱。</p>
 
       <div class="callout callout-tip">
-        <div class="callout-icon">🗺️</div>
+        <div class="callout-icon">⚙️</div>
         <div class="callout-content">
-          <strong>一句話總結</strong>
-          Heptabase = 視覺思考同研究白板；Obsidian = 長期擁有、可被 AI 讀取嘅知識庫。兩者分工，效果最好。
-        </div>
-      </div>
-    </section>
-
-    <!-- Import from multiple apps -->
-    <section id="import">
-      <div class="section-header">
-        <div class="section-num">22</div>
-        <h2>從多個 App 匯入 Obsidian 嘅詳細步驟清單</h2>
-      </div>
-
-      <p>你之前把筆記、idea、待辦、私人記錄、經驗散落喺 Google、Apple Notes、Heptabase、Microsoft Notes 等地方。呢個章節提供一套<strong>可執行、分階段</strong>嘅整合方法，避免一次過全倒造成混亂。</p>
-
-      <h3>整體策略（最重要）</h3>
-      <ol class="steps">
-        <li><strong>先建好 Vault 結構</strong>：用 PARA（00 Inbox、01 Projects、02 Areas、03 Resources、04 Archives）。</li>
-        <li><strong>分階段匯入</strong>：先處理高價值 + 近期內容，舊資料慢慢搬。</li>
-        <li><strong>全部先入 Inbox</strong>：匯入後唔好即刻分類，先集中放 <code>00 Inbox/</code>，之後再整理。</li>
-        <li><strong>以 Obsidian 為最終真理來源</strong>：匯入後逐漸減少喺其他 App 寫新內容。</li>
-        <li><strong>敏感私人記錄先手動篩選</strong>：唔好無腦全倒。</li>
-      </ol>
-
-      <h3>準備工作（開始前必做）</h3>
-      <ul>
-        <li>安裝官方插件：<strong>Importer</strong>（設定 → 社群插件 → 搜尋 Importer）</li>
-        <li>安裝 <strong>Templater</strong>（方便之後加 frontmatter）</li>
-        <li>確認 Vault 已建立，並且有 <code>00 Inbox/</code> 資料夾</li>
-        <li>建議先做好同步 + Git 備份（參考下一章），再開始大量匯入</li>
-      </ul>
-
-      <h3>1. 從 Heptabase 匯入（最容易，建議先做）</h3>
-      <ol class="steps">
-        <li>喺 Heptabase Card Library 選擇想匯出嘅卡片（可多選）。</li>
-        <li>點 Export as Markdown，下載 ZIP。</li>
-        <li>解壓後，把 .md 檔案直接拖入 Obsidian 嘅 <code>00 Inbox/</code> 或 <code>03 Resources/</code>。</li>
-        <li>（進階）如果有 All-Data.json，可用社群工具（Heptabase-Export）轉成更乾淨嘅 Wiki 連結格式。</li>
-        <li>匯入後用搜尋檢查連結是否需要手動修正。</li>
-      </ol>
-
-      <h3>2. 從 Google Keep / Google Docs 匯入</h3>
-      <ol class="steps">
-        <li><strong>Google Keep</strong>：用瀏覽器開啟 Keep → 設定 → 匯出資料（Google Takeout 可選 Keep）。下載後通常係 HTML 或 JSON，可用第三方工具轉 Markdown，或手動複製重要筆記。</li>
-        <li><strong>Google Docs</strong>：開啟文件 → 檔案 → 下載 → 純文字 .txt 或用「Markdown 匯出」擴充功能。之後把內容貼入新筆記。</li>
-        <li>大量文件時，可先用 Google Drive 下載整個資料夾，再逐個處理高價值內容。</li>
-        <li>匯入後統一加標籤，例如 <code>#from-google</code>，方便之後清理。</li>
-      </ol>
-
-      <h3>3. 從 Apple Notes 匯入</h3>
-      <ol class="steps">
-        <li>喺 Mac 開啟「備忘錄」App。</li>
-        <li>選擇筆記 → 檔案 → 匯出為 PDF（或複製內容）。</li>
-        <li>重要筆記建議手動複製到 Obsidian，並即時加上標題同雙向連結。</li>
-        <li>大量匯出可用第三方工具（例如 Exporter 或 Shortcuts 自動化），但私人記錄建議人工篩選。</li>
-        <li>匯入後檢查有冇遺漏附件（圖片通常要另外拖入）。</li>
-      </ol>
-
-      <h3>4. 從 Microsoft OneNote / Notes 匯入</h3>
-      <ol class="steps">
-        <li>OneNote：可匯出為 Word (.docx) 或 PDF。之後用 Pandoc 或線上工具轉成 Markdown。</li>
-        <li>較新版本有時支援直接複製內容到 Obsidian。</li>
-        <li>如果有「Microsoft Notes」App，通常只能手動複製或截圖後再整理。</li>
-        <li>建議只搬「仲有價值」嘅頁面，舊會議記錄可先留喺 OneNote 作參考。</li>
-      </ol>
-
-      <h3>5. 其他來源通用方法</h3>
-      <ul>
-        <li>優先使用 Obsidian 官方 <strong>Importer 插件</strong>（支援 Notion、Evernote、Roam、HTML 等）。</li>
-        <li>如果插件唔支援，就「匯出為 Markdown / 純文字 → 放入 Inbox」。</li>
-        <li>待辦事項可集中匯入一個「Tasks Inbox」筆記，之後再用 Tasks 插件管理。</li>
-      </ul>
-
-      <h3>匯入後必須做的清理步驟</h3>
-      <ol class="steps">
-        <li>為每篇重要筆記加上 YAML frontmatter（type、date、company、tags、source）。</li>
-        <li>用雙向連結把相關筆記連起來（唔好只靠資料夾）。</li>
-        <li>刪除明顯重複或過時內容。</li>
-        <li>把已處理完嘅筆記由 Inbox 移去正確嘅 PARA 位置。</li>
-        <li>叫 Hermes 幫你做一次「Inbox 初步分類建議」（可用之前嘅提示詞）。</li>
-      </ol>
-
-      <h3>建議時間表（實戰版）</h3>
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th>週次</th>
-              <th>重點</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>第 1 週</td>
-              <td>建 Vault + 結構 + 匯入 Heptabase 高價值卡片</td>
-            </tr>
-            <tr>
-              <td>第 2 週</td>
-              <td>處理 Google 同近期 Apple / MS 筆記</td>
-            </tr>
-            <tr>
-              <td>第 3–4 週</td>
-              <td>慢慢清理 Inbox，加連結同 frontmatter</td>
-            </tr>
-            <tr>
-              <td>之後</td>
-              <td>只喺 Obsidian 寫新內容，舊 App 轉為「只讀參考」</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
-      <div class="callout callout-warning">
-        <div class="callout-icon">⚠️</div>
-        <div class="callout-content">
-          <strong>常見錯誤</strong>
+          <strong>實作提示</strong>
           <ul style="margin-bottom:0;">
-            <li>一次過把幾年筆記全倒入 Vault → 即刻混亂</li>
-            <li>匯入後唔加 frontmatter 同連結 → 之後 Hermes 好難幫你整理</li>
-            <li>同時繼續喺舊 App 大量寫新內容 → 永遠整合唔完</li>
-            <li>忽略備份就開始大量匯入 → 有風險</li>
+            <li>Vault 如果用 iCloud / OneDrive 同步，n8n 最好跑喺可以存取同一個資料夾嘅機器（本機或有掛載嘅 VPS）。</li>
+            <li>如果 Hermes 喺 Zeabur，可以用 Webhook 節點直接 call Hermes 嘅 endpoint。</li>
+            <li>建議先做「手動觸發」版本測試，確認無誤先改成自動 Cron。</li>
+            <li>財務資料敏感，確保 n8n 同 Hermes 之間傳輸有加密（HTTPS），同埋唔好將完整銀行密碼寫入筆記。</li>
           </ul>
         </div>
       </div>
 
-      <div class="callout callout-tip">
-        <div class="callout-icon">✅</div>
-        <div class="callout-content">
-          <strong>成功關鍵</strong>
-          唔係「完美搬遷」，而係「開始把新知識同重要舊知識沉澱喺一個你擁有、又方便 AI 使用嘅地方」。慢慢來，反而更快見到效果。
-        </div>
-      </div>
-    </section>
+      <h3>更具體嘅 n8n 節點設定例子</h3>
 
-    <!-- Trello -->
-    <section id="trello">
-      <div class="section-header">
-        <div class="section-num">23</div>
-        <h2>Trello 如何配合 Obsidian 使用</h2>
-      </div>
+      <h4>1. Cron 節點（每月 1 號 09:00 HKT）</h4>
+      <pre><code>節點類型：Cron
+Trigger Times：
+  Mode: Every Month
+  Hour: 9
+  Minute: 0
+時區：Asia/Hong_Kong（重要！）</code></pre>
 
-      <p>Trello 擅長視覺化看板同團隊協作，Obsidian 擅長深度筆記同知識連結。兩者可以分工，而唔一定要完全取代對方。</p>
+      <h4>2. Local File Trigger（監控財務資料夾）</h4>
+      <pre><code>節點類型：Local File Trigger
+Trigger On：Changes Involving a Specific Folder
+Folder to Watch：/path/to/Vault/02 Areas/財務與對帳
+Events：File Added, File Changed
+（可選）Watch Subfolders：Yes</code></pre>
 
-      <h3>推薦配合方式</h3>
-      <div class="card-grid">
-        <div class="feature-card">
-          <h4>Trello 負責</h4>
-          <p>視覺看板、多人協作、簡單任務流動（To Do → Doing → Done）、外部合作夥伴可見嘅進度。</p>
-        </div>
-        <div class="feature-card">
-          <h4>Obsidian 負責</h4>
-          <p>詳細說明、會議記錄、決策原因、相關知識連結、私人思考、之後俾 Hermes 讀取嘅內容。</p>
-        </div>
-      </div>
+      <h4>3. Code 節點讀取檔案內容（JavaScript）</h4>
+      <pre><code>const fs = require('fs');
+const filePath = items[0].json.path || items[0].json.fileName;
+const content = fs.readFileSync(filePath, 'utf8');
+return [{
+  json: {
+    content: content,
+    path: filePath,
+    filename: filePath.split(/[/\\]/).pop()
+  }
+}];</code></pre>
 
-      <h3>實用整合方法</h3>
-      <ol class="steps">
-        <li>
-          <strong>手動連結（最簡單穩定）</strong><br>
-          喺 Obsidian 筆記入面直接貼 Trello 卡片連結：<br>
-          <code>[Trello 卡片](https://trello.com/c/xxxxx)</code><br>
-          或者用雙向思維：Trello 卡片描述入面放 Obsidian 筆記連結（如果用 Obsidian Publish 或本地路徑說明）。
-        </li>
-        <li>
-          <strong>用社群插件「Trello」</strong><br>
-          安裝 <code>obsidian-trello</code> 插件，可以用 API Token 連接 Trello 卡片到筆記，喺 Obsidian 入面睇到標籤、checklist、留言。
-        </li>
-        <li>
-          <strong>用 Kanban 插件代替簡單 Trello 用途</strong><br>
-          如果主要係個人專案管理，可直接用 Obsidian 嘅 <strong>Kanban</strong> 插件，卡片本身就係 Markdown 筆記，完全本地、可被搜尋同連結。
-        </li>
-        <li>
-          <strong>用 n8n / Zapier 自動化</strong><br>
-          例如：Trello 卡片移動到「Done」時，自動喺 Obsidian 建立或更新一篇完成記錄筆記。
-        </li>
-      </ol>
+      <h4>4. HTTP Request 節點（呼叫 Hermes Webhook）</h4>
+      <pre><code>節點類型：HTTP Request
+Method：POST
+URL：https://你的-hermes網域/webhook  或  https://api.telegram.org/bot&lt;TOKEN&gt;/sendMessage
+Authentication：Header Auth（建議加 secret）
+Body Content Type：JSON
+Specify Body：Using JSON
+Body：
+{
+  "message": "請處理以下財務筆記並分類：\n\n{{ $json.content }}",
+  "source": "obsidian-n8n",
+  "filename": "{{ $json.filename }}"
+}</code></pre>
 
-      <h3>建議工作流（一人公司）</h3>
-      <ul>
-        <li>對外或需要視覺進度嘅專案 → 繼續用 Trello。</li>
-        <li>每個重要 Trello 卡片對應一篇 Obsidian 筆記（放詳細內容、會議、決策）。</li>
-        <li>每日或每週喺 Obsidian 用 Dataview / Tasks 查看相關待辦，而唔使成日切換 App。</li>
-        <li>完成後把關鍵經驗沉澱返 Obsidian，Trello 卡片可封存。</li>
-      </ul>
+      <h4>5. Write File 節點（寫返摘要入 Vault）</h4>
+      <pre><code>節點類型：Write Binary File 或「Move Binary Data」+ 寫入
+File Path：/path/to/Vault/02 Areas/財務與對帳/{{ $now.toFormat('yyyy-MM') }}-月度摘要.md
+File Content：{{ $json.hermes_response }}
+（可先用 Execute Command 做 mkdir -p 確保目錄存在）</code></pre>
 
-      <div class="callout callout-tip">
-        <div class="callout-icon">📋</div>
-        <div class="callout-content">
-          <strong>一句話</strong>
-          Trello 管「進度可視化」，Obsidian 管「知識同決策沉澱」。兩者用連結連接，效果最好。
-        </div>
-      </div>
-    </section>
-
-    <!-- Reminder -->
-    <section id="reminder">
-      <div class="section-header">
-        <div class="section-num">24</div>
-        <h2>重要事項如何有效 Reminder</h2>
-      </div>
-
-      <p>Obsidian 本身唔係專門嘅提醒 App，但透過插件可以做到非常有效嘅任務提醒同回顧系統。</p>
-
-      <h3>核心推薦：Tasks 插件</h3>
-      <p>安裝 <strong>Tasks</strong> 插件後，你可以喺任何筆記寫：</p>
-      <pre><code>- [ ] 完成 HADO 海報設計 📅 2026-08-15
-- [ ] 跟進客戶ABC尾款 📅 2026-08-12 ⏫
-- [ ] 每週財務對帳 🔁 every Friday 📅 2026-08-15</code></pre>
-
-      <p>常用符號：</p>
-      <ul>
-        <li><code>📅 YYYY-MM-DD</code>：到期日（Due）</li>
-        <li><code>⏳ YYYY-MM-DD</code>：計劃執行日（Scheduled）</li>
-        <li><code>🔁 every week</code> / <code>every month on the 1st</code>：循環任務</li>
-        <li><code>⏫</code> 高優先、 <code>🔼</code> 中、 <code>🔽</code> 低</li>
-      </ul>
-
-      <h3>點樣令提醒真正有效</h3>
-      <ol class="steps">
-        <li>
-          <strong>集中查看</strong>：建立一篇「任務儀表板」筆記，用 Tasks 查詢顯示：
-          <pre><code>```tasks
-not done
-due before tomorrow
-```</code></pre>
-          同埋「本週到期」、「已過期」等查詢。
-        </li>
-        <li>
-          <strong>配合每日筆記</strong>：每天打開 Daily Note 時，嵌入上面嘅 Tasks 查詢，養成「每日必睇」習慣。
-        </li>
-        <li>
-          <strong>需要系統通知時</strong>：安裝 <strong>Reminder</strong> 插件，它支援 Tasks 格式，可以喺到期時彈出 Obsidian 通知，並可設定提醒時間。
-        </li>
-        <li>
-          <strong>真正重要嘅事</strong>：除咗 Obsidian 內提醒，可同時加落系統日曆（Apple Calendar / Google Calendar）或手機提醒，做到「雙重保險」。
-        </li>
-      </ol>
-
-      <h3>實用範例（一人公司）</h3>
-      <pre><code>- [ ] 提交 Smart Sensor 資助申請 📅 2026-08-20 ⏫
-- [ ] 準備 BNI 分享稿 ⏳ 2026-08-12 📅 2026-08-14
-- [ ] 每月 cross-company 財務摘要 🔁 every month on the 1st 📅 2026-09-01
-- [ ] 跟進逾期應收款 - 遊樂場協會 📅 2026-08-10</code></pre>
+      <h4>6. Telegram 節點（通知你）</h4>
+      <pre><code>節點類型：Telegram
+Credential：你的 Telegram Bot API
+Operation：Send Message
+Chat ID：你的 Chat ID（可用 @userinfobot 查）
+Text：
+🆕 新財務筆記已建立草稿
+檔名：{{ $json.filename }}
+請打開 Obsidian 確認公司分類同金額。
+Additional Fields → Parse Mode：Markdown</code></pre>
 
       <div class="callout callout-info">
-        <div class="callout-icon">⏰</div>
+        <div class="callout-icon">🧪</div>
         <div class="callout-content">
-          <strong>有效提醒嘅關鍵</strong>
-          唔係「設咗提醒就得」，而係：<br>
-          1. 有到期日<br>
-          2. 有固定地方每日/每週查看（Daily Note 或儀表板）<br>
-          3. 重要事項有系統通知或手機提醒作後盾<br>
-          4. 完成後即刻打勾，保持清單乾淨
+          <strong>測試順序建議</strong><br>
+          1. 先用 Manual Trigger + 固定測試檔案，確認讀取同 HTTP Request 正常。<br>
+          2. 再加 File Trigger 或 Cron。<br>
+          3. 最後先加寫入 Vault 同 Telegram 通知。
         </div>
       </div>
     </section>
 
-    <!-- Sync expanded -->
-    <section id="sync">
+    <!-- Hermes Prompt Templates -->
+    
+
+    <div class="phase-header" style="margin: 3rem 0 1.5rem; padding: 1rem 1.25rem; background: linear-gradient(135deg, rgba(124,58,237,0.2), rgba(236,72,153,0.1)); border-left: 4px solid var(--accent); border-radius: 0 12px 12px 0;">
+      <div style="font-size:0.85rem;color:var(--accent-light);font-weight:600;letter-spacing:0.05em;">學習階段</div>
+      <div style="font-size:1.25rem;font-weight:700;color:#fff;margin-top:0.25rem;">長期維護</div>
+    </div>
+
+<section id="sync">
       <div class="section-header">
         <div class="section-num">25</div>
         <h2>同步、備份與跨裝置（加強版）</h2>
@@ -2095,41 +2148,35 @@ due before tomorrow
     </section>
 
     <!-- 18. Practice -->
-    <section id="practice">
+    
+<section id="practice">
       <div class="section-header">
         <div class="section-num">26</div>
         <h2>總結與練習建議</h2>
       </div>
 
       <div class="card">
-        <h3 style="margin-top:0;">第一週練習清單</h3>
+        <h3 style="margin-top:0;">建議學習順序（跟住階段走）</h3>
         <ol>
-          <li>下載安裝 Obsidian，建立第一個 Vault，切換繁體中文。</li>
-          <li>建立基本 PARA 資料夾結構（特別係財務與對帳資料夾）。</li>
-          <li>寫 5–7 篇每日筆記，練習用 <code>[[雙向連結]]</code>。</li>
-          <li>建立至少 2 個模板（會議 + 專案），並實際使用一次。</li>
-          <li>用財務模板記錄 1–2 筆真實或模擬嘅收支／發票。</li>
-          <li>打開關係圖譜，睇吓自己嘅知識網絡長咩樣。</li>
-          <li>（可選）安裝 Calendar + Templater + Dataview。</li>
+          <li><strong>第 1–2 天（基礎認識）</strong>：下載安裝、切換繁體中文、認識界面、學 Markdown 同雙向連結、建立 PARA 結構。</li>
+          <li><strong>第 3–5 天（日常使用）</strong>：開始寫每日筆記、用模板、為重要事項加上 Tasks 到期日、開始從 Heptabase / Google 匯入高價值筆記。</li>
+          <li><strong>第 2 週（工具整合）</strong>：處理 Trello / Heptabase 連結、建立財務模板、試 Dataview 簡單查詢、安裝必要插件。</li>
+          <li><strong>第 3 週起（進階自動化）</strong>：設定 Hermes 讀取 Vault、放入系統提示詞、測試簡單 n8n 工作流。</li>
+          <li><strong>持續（長期維護）</strong>：設定同步 + Git 備份 + 定期冷備份。</li>
         </ol>
       </div>
 
       <div class="card">
-        <h3 style="margin-top:0;">進階目標（第二週之後）</h3>
-        <ul>
-          <li>建立一個「儀表板」筆記，用 Dataview 顯示進行中專案、近期會議同逾期應收款。</li>
-          <li>將 Vault 路徑同財務處理指令寫入 Hermes 嘅 Soul.md / User.md，試下叫 Hermes 讀取同總結財務筆記。</li>
-          <li>為每間公司建立專屬領域筆記，並開始累積相關資源同財務記錄。</li>
-          <li>設定同步方案，確保手機同電腦可以無縫存取。</li>
-          <li>試下叫 Hermes：「掃描本月所有 type:finance 筆記，按公司產生現金流摘要」。</li>
-          <li>（進階）用 n8n 做一個「新財務筆記 → 通知 Hermes」嘅簡單工作流測試（可參考具體節點設定）。</li>
-          <li>喺 Telegram 試下用 /scan_finance 或直接傳一段財務內容俾 Hermes Bot。</li>
-          <li>決定同步方案（建議 Obsidian Sync 或 Syncthing + Git 備份），並設定至少一種冷備份。</li>
-          <li>（可選）試下用 Heptabase 做一個小主題研究，再匯出 Markdown 入 Obsidian。</li>
-          <li>跟住「從多個 App 匯入」清單，先由 Heptabase 或 Google 開始，把一批高價值筆記放入 Inbox。</li>
-          <li>安裝 Tasks 插件，試下為 3–5 件重要事項加上到期日，並建立一個簡單嘅任務儀表板。</li>
-          <li>（可選）如果有用 Trello，試下將一個重要卡片連結到對應嘅 Obsidian 筆記。</li>
-        </ul>
+        <h3 style="margin-top:0;">第一週最小可行練習</h3>
+        <ol>
+          <li>下載安裝 Obsidian，建立 Vault，切換繁體中文。</li>
+          <li>建立 PARA 資料夾結構。</li>
+          <li>寫 5–7 篇每日筆記，練習 <code>[[雙向連結]]</code>。</li>
+          <li>建立會議 + 專案模板各一個，實際使用一次。</li>
+          <li>用 Tasks 為 3 件重要事項加上到期日。</li>
+          <li>從 Heptabase 或 Google 匯入一批高價值筆記到 Inbox。</li>
+          <li>打開關係圖譜，睇吓自己嘅知識網絡。</li>
+        </ol>
       </div>
 
       <div class="callout callout-info">
@@ -2151,6 +2198,16 @@ due before tomorrow
       <div class="card" style="background: linear-gradient(135deg, rgba(124,58,237,0.15), rgba(236,72,153,0.1)); border-color: var(--accent);">
         <h3 style="margin-top:0;color:var(--accent-light);">最後提醒</h3>
         <p style="margin-bottom:0.5rem;">Obsidian 最重要唔係學晒所有功能，而係<strong>開始寫</strong>同<strong>開始連結</strong>。</p>
+        <p style="margin-bottom:0.5rem;">筆記系統係慢慢長出嚟嘅。先跟住「基礎認識 → 日常使用」養成習慣，之後先進入整合同自動化。</p>
+        <p style="margin-bottom:0;">你而家已經有一條由零基礎到進階、特別適合一人多公司營運嘅完整學習路徑。打開 Obsidian，寫下第一篇筆記，就係建立第二大腦嘅開始。</p>
+      </div>
+    </section>
+
+    <!-- Final tip -->
+    <section>
+      <div class="card" style="background: linear-gradient(135deg, rgba(124,58,237,0.15), rgba(236,72,153,0.1)); border-color: var(--accent);">
+        <h3 style="margin-top:0;color:var(--accent-light);">最後提醒</h3>
+        <p style="margin-bottom:0.5rem;">Obsidian 最重要唔係學晒所有功能，而係<strong>開始寫</strong>同<strong>開始連結</strong>。</p>
         <p style="margin-bottom:0.5rem;">筆記系統係慢慢長出嚟嘅。先用最基本嘅功能養成習慣，之後再按實際需要擴展。</p>
         <p style="margin-bottom:0;">你而家已經有一個由零基礎到進階、特別適合一人多公司營運嘅完整地圖。打開 Obsidian，寫下第一篇筆記，就係建立第二大腦嘅開始。</p>
       </div>
@@ -2159,7 +2216,7 @@ due before tomorrow
 
   <footer>
     <p>本教學網站根據 YouTube 影片「零基礎20分鐘學會Obsidian 95%功能！」結構編寫，並參考 <a href="https://obsidian.md/zh/" target="_blank">Obsidian 官方中文網站</a> 及幫助文件。</p>
-    <p style="margin-top:0.5rem;">擴充內容包括 PARA、模板、AI/Hermes/n8n、財務、Heptabase、多 App 匯入、Trello 配合、有效 Reminder、同步備份等 · 2026</p>
+    <p style="margin-top:0.5rem;">已按學習先後次序重新排版：基礎認識 → 日常使用 → 工具整合 → 進階自動化 → 長期維護 · 2026</p>
   </footer>
 
   <script>
